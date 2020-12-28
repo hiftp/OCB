@@ -8,8 +8,8 @@
 # Jaroslav Helemik Nemec <nemec@helemik.cz>, 2019
 # Jan Horzinka <jan.horzinka@centrum.cz>, 2019
 # Michal Veselý <michal@veselyberanek.net>, 2019
-# trendspotter, 2020
 # Rastislav Brencic <rastislav.brencic@azet.sk>, 2020
+# trendspotter, 2020
 # karolína schusterová <karolina.schusterova@vdp.sk>, 2020
 # 
 msgid ""
@@ -2416,6 +2416,12 @@ msgid "Following"
 msgstr "Odběr zpráv"
 
 #. module: mail
+#: code:addons/mail/models/mail_channel.py:778
+#, python-format
+msgid "Following invites are invalid as user groups do not match: %s"
+msgstr ""
+
+#. module: mail
 #: model:ir.model.fields,help:mail.field_mail_activity__icon
 #: model:ir.model.fields,help:mail.field_mail_activity_type__icon
 msgid "Font awesome icon e.g. fa-tasks"
@@ -3404,7 +3410,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model,name:mail.model_base_partner_merge_automatic_wizard
 msgid "Merge Partner Wizard"
-msgstr ""
+msgstr "Sprievodca zlúčením partnerov"
 
 #. module: mail
 #: code:addons/mail/wizard/base_partner_merge.py:0
@@ -4540,7 +4546,7 @@ msgstr "Prosím čekejte"
 #: code:addons/mail/static/src/xml/thread.xml:0
 #, python-format
 msgid "Please wait..."
-msgstr ""
+msgstr "Prosím, čekejte..."
 
 #. module: mail
 #. openerp-web
@@ -5104,7 +5110,7 @@ msgstr ""
 #: code:addons/mail/static/src/xml/thread.xml:0
 #, python-format
 msgid "Seen by:"
-msgstr ""
+msgstr "Viděn:"
 
 #. module: mail
 #. openerp-web
@@ -6031,7 +6037,7 @@ msgstr ""
 #: code:addons/mail/static/src/xml/discuss.xml:0
 #, python-format
 msgid "User is offline"
-msgstr ""
+msgstr "Uživatel je offline"
 
 #. module: mail
 #. openerp-web
@@ -6549,7 +6555,7 @@ msgstr "pro"
 #: code:addons/mail/static/src/xml/thread.xml:0
 #, python-format
 msgid "from"
-msgstr ""
+msgstr "od"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.message_origin_link
